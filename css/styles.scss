@@ -1,0 +1,133 @@
+// Alt der gælder for mobil og højere
+
+* { // Gælder alt på hele siden
+  -webkit-box-sizing: border-box; // -webkit- browserunderstøttelse
+  box-sizing: border-box; // Bokse har altid den størrelse man giver uanset om der tilføjes margen mv.
+}
+
+body {
+  margin: 0; // Ingen kanter i siden af browser
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; // Ingen ydre margen fra overskrifter
+  padding: 0; // Ingen indre margen fra overskrifter
+}
+
+ul, ol {
+  margin: 0; // Ingen ydre margen fra lister
+  padding: 0; // Ingen indre margen fra lister
+  list-style-position: inside; // List punkter står på linje
+}
+
+li {
+  margin: 0; // Ingen ydre margen fra listpunkter
+}
+
+p {
+  margin: 0; // Ingen ydre margen fra paragraffer
+  padding: 0; // Ingen indre margen fra paragraffer
+}
+
+// Sikrer billeder er responsive
+img {
+  display: block; // Billeder er et element (laver linjeskift)
+  max-width: 100%; // Bredde må maks fylde 100%
+  height: auto; // Højden skal tilpasse sig
+}
+
+
+@media screen and (min-width: 768px) {
+  // Alt der ændres i tablet stående fra mobil
+  .header{
+    background-image: url("../Images/27479304_10208379029272563_97099164_o.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+  }
+  .logo{
+    max-height: 20px;
+    max-width: 20px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    height: 100px;
+    width: 100px;
+    color: white;
+    display: inline-flex;
+    list-style: none;
+
+  }
+
+  .menu{
+    color: white;
+    position: absolute;
+    right: 250px;
+    top: 50px;
+    word-spacing: 50px;
+  }
+
+  .content{
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+  }
+
+  .boks{
+    border-style: solid;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 4%;
+    padding: 1%;
+  }
+
+  .web{
+    font-size: 250%;
+    word-spacing: 2px;
+    margin-left:15%;
+
+  }
+  .webtekst{
+    width: 38%;
+  }
+
+  .identity{
+    font-size: 250%;
+    word-spacing: 2px;
+    margin-top:10%;
+  }
+  .identitytext{
+    width: 38%;
+    margin-left:35%;
+  }
+
+  .symbol1{
+    float: right;
+    top: -15%;
+    left:47%;
+  }
+
+  .symbol2{
+    float: left;
+    left:4%;
+    bottom: 1%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  // Alt der ændres i tablet liggende fra mobil og tablet stående
+}
+
+@media screen and (min-width: 1200px) {
+  // Alt der ændres i computer fra mobil, tablet stående og tablet liggende
+}
+
+@media print {
+
+}
+
+
+
+// Alt der gælder for print specifikt

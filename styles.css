@@ -1,0 +1,70 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background-color: white; }
+
+.web{
+font-size: 250%;
+word-spacing: 2px;
+  margin-left:15%;
+  margin-bottom: 95%%
+
+}
+.webtekst{
+  width: 38%;
+  margin-left:15%;
+}
+
+.identity{
+  font-size: 250%;
+  word-spacing: 2px;
+  margin-left:35%;
+  margin-top:10%;
+}
+.identitytext{
+  width: 38%;
+  margin-left:35%;
+}
+
+.symbol1{
+  position: absolute;
+  top: -15%;
+  left:47%;
+}
+
+.symbol2{
+
+  position: absolute;
+  left:4%;
+  bottom: 1%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside; }
+
+li {
+  margin: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */
