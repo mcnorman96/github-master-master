@@ -131,6 +131,7 @@ img {
     float: left;
     width: 45%;
     margin-top: -10%;
+    margin-bottom: -150px;
   }
 
   .content1{
@@ -141,12 +142,10 @@ img {
 
   .icons{
     margin-top: 30px;
-    height: 22vw;
     font-size: 100%;
     word-spacing: 2px;
     margin-left:15%;
     margin-right: 15%;
-    position: absolute;
   }
 
   //content2
@@ -165,6 +164,70 @@ img {
     float: left;
   }
 
+  .awesome{
+    height: 35vw;
+    background-color: lightgrey;
+  }
+
+  .awesomeclientsheadline{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 250%;
+  }
+  .awesomeclientstxt{
+    text-align: center;
+    font-size: 85%;
+  }
+
+  .sort1{
+  margin-top: 30px;
+  height: 10vw;
+  font-size: 100%;
+  word-spacing: 2px;
+  margin-left:15%;
+  margin-right: 15%;
+
+}
+  .sort2{
+    margin-top: 30px;
+    height: 10vw;
+    font-size: 100%;
+    word-spacing: 2px;
+    margin-left:15%;
+    margin-right: 15%;
+
+  }
+
+  .sortkugle1{
+    float: left;
+    margin-top: -15%;
+    margin-bottom: -15%;
+  }
+
+  .sortkugle2{
+    float: right;
+    margin-top: -15%;
+  }
+
+  .sortkugletekst1{
+    width: 380px;
+    height: 100px;
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+  }
+
+  .sortkugletekst2{
+    width: 380px;
+    height: 100px;
+    float: left;
+    margin-left: 15%;
+  }
+
+  .logoer{
+     margin-top:44%;
+     margin-left:2%;
+   }
 }
 
 @media screen and (min-width: 992px) {
