@@ -105,6 +105,30 @@ img {
   .symbol2 {
     float: left;
     width: 45%;
-    margin-top: -10%; } }
+    margin-top: -10%; }
+
+  .content1 {
+    display: flex;
+    flex-direction: row; }
+
+  .icons {
+    margin-top: 30px;
+    height: 22vw;
+    font-size: 100%;
+    word-spacing: 2px;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: absolute; }
+
+  .content2 {
+    display: flex;
+    flex-direction: row; }
+
+  .content3 {
+    display: flex;
+    flex-direction: row; }
+
+  .photo {
+    float: left; } }
 
 /*# sourceMappingURL=styles.css.map */
